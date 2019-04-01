@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+let goodbye = process.env.REACT_APP_TEST_KEY;
+
+console.log(goodbye + ' goodbye too');
+
 class App extends Component {
   render() {
     return (
